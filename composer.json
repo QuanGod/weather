@@ -1,0 +1,19 @@
+{
+    "name": "godquan/weather",
+    "description": "A weather SDK.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "GodQuan",
+            "email": "2029945857@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "GodQuan\\weather\\": "src"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
